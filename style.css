@@ -1,0 +1,92 @@
+*{ 
+    margin: 0;
+
+}
+
+header{
+    background-image: url(assets/header3.1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+   height: 100vh;
+   
+.logo{
+    width: 200px;
+}
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 25px;
+    color: black;
+    list-style-type: none;
+    font-size: 1.2rem;
+ 
+}
+
+nav{
+       display: flex;
+       justify-content: flex-end;
+       color: #1e0707;
+        gap: 20px;
+}
+
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e070729;
+}
+
+h1{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    font-size: 3rem;
+    color: #1e0707;
+   
+
+}
+
+.fontface{
+     font-family: "Cinzel", serif;
+}
+
+.bouton{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1e0707;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    border-radius: 4px;
+    list-style-type: none;
+
+}
+
+.h1bouton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divitems{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.divitems p {
+
+    font-size: 0.85rem;
+    color: #1e0707;
+    line-height: 1.4;
+}
+
+.divitems h3{
+    font-family: 'cinzel' serif;
+}
