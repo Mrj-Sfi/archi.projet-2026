@@ -33,11 +33,16 @@ nav{
         gap: 20px;
 }
 
+nav a:hover{
+    color: #651623;
+}
+
 .navlogo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1e070729;
+    /* background-color: #1e070729; */
+
 }
 
 h1{
@@ -46,12 +51,10 @@ h1{
     padding-bottom: 15px;
     font-size: 3rem;
     color: #1e0707;
-   
-
 }
 
 .fontface{
-     font-family: "Cinzel", serif;
+     font-family: 'Cinzel', serif;
 }
 
 .bouton{
@@ -64,7 +67,6 @@ h1{
     font-family: 'Cinzel', serif;
     border-radius: 4px;
     list-style-type: none;
-
 }
 
 .h1bouton{
@@ -73,20 +75,38 @@ h1{
     align-items: center;
 }
 
+.bouton:hover {
+    background-color: #651623;
+}
+
 .divitems{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+
+    display:flex;
+    gap: 32px;
+    padding: 20px 60px;
 }
 
 
 .divitems p {
-
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 0.85rem;
     color: #1e0707;
     line-height: 1.4;
+
 }
 
-.divitems h3{
-    font-family: 'cinzel' serif;
+.divitems h3 {
+    font-family: 'Cinzel' serif;
+    margin-bottom: 8px;
 }
+
+#h2items {
+
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
